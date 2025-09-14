@@ -23,10 +23,10 @@ def calculo(a,b,c,d,option):
   
   if option == 'sen':
       y = a * np.sin(b*x + c) + d
-      title = (f"{a:.1f}.sen({b:.1f}x + {c:.1f}) + {d:.1f}")
+      title = (f"{a:.0f}.sen({b:.0f}x + {c:.0f}) + {d:.0f}")
   else:
       y = a * np.cos(b*x + c) + d
-      title = (f"{a:.1f}.con({b:.1f}x + {c:.1f}) + {d:.1f}")
+      title = (f"{a:.0f}.con({b:.0f}x + {c:.0f}) + {d:.0f}")
 
   plt.style.use('dark_background')
 
